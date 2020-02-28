@@ -14,10 +14,6 @@ public class Main {
 
     static {
         javaToken = System.getenv("javaToken");
-        if (javaToken == null || javaToken.isEmpty()) {
-            System.out.println("未检测到javaToken, 使用作者私人bot......");
-            javaToken = "1008706432:AAFt2_Yq2SDYaeasZ_mEu1Xj5rAq7RYK-Ko";
-        }
     }
 
     public static void main(String[] args) throws IOException {
