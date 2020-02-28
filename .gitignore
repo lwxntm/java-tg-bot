@@ -1,0 +1,6 @@
+# Default ignored files
+
+/target/
+/.idea/
+/out/
+/todoList.*
